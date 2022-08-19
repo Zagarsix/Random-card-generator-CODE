@@ -1,1 +1,62 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background-color: green;
+}
+.carta {
+  background-color: white;
+  border: 2px solid black;
+
+  position: relative;
+  width: 500px;
+  height: 750px;
+  border-radius: 5px;
+}
+
+.carta.espada {
+  color: black;
+}
+.carta.trebol {
+  color: black;
+}
+.carta.corazon {
+  color: red;
+}
+.carta.diamante {
+  color: red;
+}
+
+.carta-numero-pinta {
+  display: inline-block;
+  position: absolute;
+}
+
+.carta-numero-pinta.top {
+  font-size: 50px;
+  top: 5px;
+  left: 5px;
+}
+.carta-numero-pinta.bot {
+  font-size: 50px;
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 5px;
+}
+.carta-pinta {
+  font-size: 250px;
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100%;
+}
