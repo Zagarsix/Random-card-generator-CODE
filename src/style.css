@@ -3,18 +3,18 @@ body {
 }
 
 .card {
+  position: relative;
   background: white;
   margin: auto;
-  height: 340px;
+  height: 350px;
   width: 250px;
-  border: 1px solid black;
   border-radius: 15px;
-  position: relative;
   margin-top: 50px;
+  border: 1px solid black;
 }
 
 .top-suit {
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .bottom-suit {
@@ -22,17 +22,17 @@ body {
   transform: rotate(180deg);
   right: 1px;
   bottom: 1px;
-  font-size: 90px;
+  font-size: 80px;
 }
 
 .number {
-  font-size: 105px;
+  font-size: 100px;
   margin: 100px;
 }
 
 .footer {
   margin: 0 auto;
-  margin-top: 200px;
-  align-items: center;
+  margin-top: 210px;
   display: flex;
+  justify-content: center;
 }
